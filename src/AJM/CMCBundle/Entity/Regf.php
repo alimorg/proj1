@@ -2,30 +2,82 @@
 
 namespace AJM\CMCBundle\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * Regf
+ */
 class Regf
 {
-protected $HowMany;
+    /**
+     * @var integer
+     */
+    private $id;
 
-protected $whereByTo;
+    /**
+     * @var string
+     */
+    private $howMany;
 
-public function getHowMany()
-{
-return $this->HowMany;
-}
+    /**
+     * @var string
+     */
+    private $whereByTo;
 
-public function setHowMany($HowMany)
-{
-$this->HowMany = $HowMany;
-}
 
-public function getwhereByTo()
-{
-return $this->whereByTo;
-}
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
 
-public function setwhereByTo($whereByTo)
-{
-$this->whereByTo = $whereByTo;
-}
+    /**
+     * Set howMany
+     *
+     * @param string $howMany
+     * @return Regf
+     */
+    public function setHowMany($howMany)
+    {
+        $this->howMany = $howMany;
+
+        return $this;
+    }
+
+    /**
+     * Get howMany
+     *
+     * @return string 
+     */
+    public function getHowMany()
+    {
+        return $this->howMany;
+    }
+
+    /**
+     * Set whereByTo
+     *
+     * @param string $whereByTo
+     * @return Regf
+     */
+    public function setWhereByTo($whereByTo)
+    {
+        $this->whereByTo = $whereByTo;
+
+        return $this;
+    }
+
+    /**
+     * Get whereByTo
+     *
+     * @return string 
+     */
+    public function getWhereByTo()
+    {
+        return $this->whereByTo;
+    }
 }
