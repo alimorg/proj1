@@ -19,7 +19,7 @@ public function setHowMany($HowMany)
 $this->HowMany = $HowMany;
 }
 
-public function whereByTo()
+public function getwhereByTo()
 {
 return $this->whereByTo;
 }
