@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba263e3c-a070-4cb5-b5da-bd972348a25e" name="Default" comment="Cleaned up Symfony">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AJM/CMCBundle/Entity/Regf.php" />
+    <list default="true" id="ba263e3c-a070-4cb5-b5da-bd972348a25e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AJM/CMCBundle/Form/Type/RegType.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proj12" afterPath="$PROJECT_DIR$/proj12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Symfony2.iml" afterPath="$PROJECT_DIR$/.idea/Symfony2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proj1" afterPath="$PROJECT_DIR$/proj1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Symfony2.iws" />
@@ -40,49 +28,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Regf.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Entity/Regf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="51" selection-end="51" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="19" selection-start="585" selection-end="594" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="675">
+            <state line="15" column="27" selection-start="416" selection-end="416" vertical-scroll-proportion="0.32097003" vertical-offset="0" max-vertical-offset="701">
               <folding>
-                <element signature="e#45#102#0" expanded="true" />
+                <element signature="e#45#81#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Resources/config/routing.yml">
+      <file leaf-file-name="RegType.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Form/Type/RegType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="15" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="242" selection-end="242" vertical-scroll-proportion="0.25677603" vertical-offset="0" max-vertical-offset="701">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AJMCMCBundle.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/AJMCMCBundle.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
+            <state line="29" column="16" selection-start="734" selection-end="738" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="555">
+              <folding>
+                <element signature="e#43#83#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +71,9 @@
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/AJM/CMCBundle/Entity/Regf.php" />
         <option value="$PROJECT_DIR$/src/AJM/CMCBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/AJM/CMCBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/AJM/CMCBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AJM/CMCBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/AJM/CMCBundle/Form/Type/RegType.php" />
       </list>
     </option>
   </component>
@@ -311,6 +275,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Type" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AJM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMCBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -429,7 +423,11 @@
       <created>1405515909027</created>
       <updated>1405515909027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working form no db starting form class">
+      <created>1405543597463</created>
+      <updated>1405543597463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -471,7 +469,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Cleaned up Symfony" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up Symfony" />
+    <MESSAGE value="Working form no db starting form class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working form no db starting form class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -526,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Entity/Regf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="51" selection-end="51" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/AJMCMCBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
@@ -540,19 +532,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="585" selection-end="594" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="675">
+        <state line="23" column="28" selection-start="537" selection-end="537" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Entity/Regf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="51" selection-end="51" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Form/Type/RegType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="734" selection-end="738" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="555">
           <folding>
-            <element signature="e#45#102#0" expanded="true" />
+            <element signature="e#43#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/AJM/CMCBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="242" selection-end="242" vertical-scroll-proportion="0.25677603" vertical-offset="0" max-vertical-offset="701">
-          <folding />
+        <state line="15" column="27" selection-start="416" selection-end="416" vertical-scroll-proportion="0.32097003" vertical-offset="0" max-vertical-offset="701">
+          <folding>
+            <element signature="e#45#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
