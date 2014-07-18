@@ -1,19 +1,19 @@
 {{ form_start(form) }}
     {{ form_errors(form) }}
 
-<div class="form-control">
+<div>
     {{ form_label(form.HowMany) }}
     {{ form_errors(form.HowMany) }}
     {{ form_widget(form.HowMany) }}
 </div>
 
-<div class="form-control">
+<div>
     {{ form_label(form.whereByTo) }}
     {{ form_errors(form.whereByTo) }}
     {{ form_widget(form.whereByTo) }}
 </div>
 
-<div class="form-control">
+<div class="clear">
     {{ form_widget(form.save) }}
 </div>
 
