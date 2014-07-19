@@ -1,12 +1,58 @@
 {% extends '::base.html.twig' %}
-
+{% block stylesheets %}
+    <link href="{{ asset('bundles/ajmcmc/css/boilerplate.css') }}" rel="stylesheet" />
+    <link href="{{ asset('bundles/ajmcmc/css/layout1.css') }}" rel="stylesheet" />
+    <link href="{{ asset('bundles/ajmcmc/css/preregister.css') }}" rel="stylesheet" />
+{% endblock %}
 {% block title %}
     Register for the CMC2 Open Event
 {% endblock %}
 
 {% block body %}
 
-<div>This is stage 2 you wanted {{ HowMany }} people to attend our Meet and greet at {{ whereByTo }}</div>
+    <div class="gridContainer clearfix"> <!--clearfix-->
+        <div id="header"><!--header-->
+            <div class="textcontainer"><!--textcontainer-->
+                <div class="HLC"><!--leftcolumn50-->
+                    <img src="{{ asset('/bundles/ajmcmc/images/cmcLogo.png')}}" alt="Coleg Gwent Event Registration">
+                </div><!--leftcolumn50-->
+                <div class="HRC"><!--rightcolumn50-->
+                    <img src="{{ asset('/bundles/ajmcmc/images/event.png')}}" alt="Coleg Gwent Event Registration">
+                </div><!--rightcolumn50-->
+            </div><!--textcontainer-->
+        </div><!--header-->
+        <div id="stage2"><!--stage2--><!--noDataForm-->
+            <div class="textcontainer"><img  class="centreyoudamnimage" src="{{ asset('/bundles/ajmcmc/images/stage1.png')}}" alt="Stage 1 - Where and how many"><!--textcontainer-->
+                <div class="leftcolumn"><!--leftcolumn-->
+                    <p>Come and meet the team at our Open Events!  Find out what we do, why we exist and what we can do for you!          </p>
+                    <h1>This year's open events are:</h1>
+                    <ul>
+                        <li><strong>6th August</strong> 2014 - Usk, Monmouthshire HQ, 2-8pm</li>
+                        <li><strong>7th August</strong> 2014 - Wales 1 Business Park, 2-8pm</li>
+                    </ul>
+                    <p>A warm welcome awaits you at our lobster & champagne open event, each deligate will recieve an iPad air, Macbook Pro and  home media centre (Linux PC running plex media server - our expert staff will be on hand to install at your home)</p>
+                    <p>Registration is free! all we ask is that you support our designated charity Computer and Server Hospice with a £10,000 donation, cheques should be made out to CASH - we also accept Western Union.</p>
+                </div>
+                <!--leftcolumn-->
+                <div class="rightcolumn"><!--rightcolumn-->
+                    <h1>Come to our Party</h1>
+                    <div class="formContainer">
+
+                        <div>This is stage 2 you wanted {{ HowMany }} people to attend our Meet and greet at {{ whereByTo }}</div>
+                        <div class="clearme"></div>
+                    </div>
+
+                </div><!--rightcolumn-->
+            </div><!--textcontainer-->
+        </div><!--noDataForm-->
+        <div id="footer">
+            <div class="textcontainer">
+                <p class="footertext">Event preregister by <a href="http://www.alistairmorgan.co.uk">Alistair Morgan</a></p>
+            </div>
+        </div>
+    </div>
+
+
 
 {% endblock %}
 

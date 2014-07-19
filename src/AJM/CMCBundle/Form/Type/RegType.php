@@ -10,10 +10,15 @@ class RegType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('HowMany', 'text', array('attr' => array(
-                'class'=> 'ddbox'
-            )
+            ->add('HowMany', 'choice', array(
+                  'choices'   => array(
+                      'one'   => 'One',
+                      'two' => 'Two',
+                      'three'   => 'Three',
+                      'four'   => 'Four',
+                  )
             ))
+
             ->add('whereByTo', 'text', array('attr' => array(
                 'class'=> 'ddbox'
             )
