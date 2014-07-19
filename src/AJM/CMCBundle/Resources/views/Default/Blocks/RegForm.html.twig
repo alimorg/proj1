@@ -1,16 +1,16 @@
 {{ form_start(form) }}
     {{ form_errors(form) }}
 
-<div>
-    {{ form_label(form.HowMany) }}
-    {{ form_errors(form.HowMany) }}
-    {{ form_widget(form.HowMany) }}
+<div class="labelholder">
+    {{ form_label(form.HowMany, 'How many people will be attending') }}
+    {{ form_errors(form.HowMany) }}</div>
+ <div>   {{form_widget(form.HowMany, {'attr': {'class': 'ddbox'}}) }}
 </div>
 
-<div>
-    {{ form_label(form.whereByTo) }}
-    {{ form_errors(form.whereByTo) }}
-    {{ form_widget(form.whereByTo) }}
+<div class="labelholder">
+    {{ form_label(form.whereByTo, 'Where would you like to come?') }}
+    {{ form_errors(form.whereByTo) }}</div>
+    <div> {{ form_widget(form.whereByTo, {'attr': {'class': 'ddbox'}}) }}
 </div>
 
 <div class="clear">

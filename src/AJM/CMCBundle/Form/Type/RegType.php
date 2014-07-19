@@ -17,11 +17,15 @@ class RegType extends AbstractType
                       'three'   => 'Three',
                       'four'   => 'Four',
                   )
+
             ))
 
-            ->add('whereByTo', 'text', array('attr' => array(
-                'class'=> 'ddbox'
-            )
+            ->add('whereByTo', 'choice', array(
+                'choices'   => array(
+                    'Usk'   => 'Monmouthshire HQ Usk',
+                    'Magor' => 'Wales 1 Business Park, Magor',
+                )
+
             ))
             ->add('save', 'submit', array('attr' => array(
                 'class'=> 'SelectorSubmit'

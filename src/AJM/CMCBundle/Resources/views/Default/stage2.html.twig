@@ -10,49 +10,35 @@
 
 {% block body %}
 
-    <div class="gridContainer clearfix"> <!--clearfix-->
-        <div id="header"><!--header-->
-            <div class="textcontainer"><!--textcontainer-->
-                <div class="HLC"><!--leftcolumn50-->
-                    <img src="{{ asset('/bundles/ajmcmc/images/cmcLogo.png')}}" alt="Coleg Gwent Event Registration">
-                </div><!--leftcolumn50-->
-                <div class="HRC"><!--rightcolumn50-->
-                    <img src="{{ asset('/bundles/ajmcmc/images/event.png')}}" alt="Coleg Gwent Event Registration">
-                </div><!--rightcolumn50-->
-            </div><!--textcontainer-->
-        </div><!--header-->
-        <div id="stage2"><!--stage2--><!--noDataForm-->
-            <div class="textcontainer"><img  class="centreyoudamnimage" src="{{ asset('/bundles/ajmcmc/images/stage1.png')}}" alt="Stage 1 - Where and how many"><!--textcontainer-->
-                <div class="leftcolumn"><!--leftcolumn-->
-                    <p>Come and meet the team at our Open Events!  Find out what we do, why we exist and what we can do for you!          </p>
-                    <h1>This year's open events are:</h1>
-                    <ul>
-                        <li><strong>6th August</strong> 2014 - Usk, Monmouthshire HQ, 2-8pm</li>
-                        <li><strong>7th August</strong> 2014 - Wales 1 Business Park, 2-8pm</li>
-                    </ul>
-                    <p>A warm welcome awaits you at our lobster & champagne open event, each deligate will recieve an iPad air, Macbook Pro and  home media centre (Linux PC running plex media server - our expert staff will be on hand to install at your home)</p>
-                    <p>Registration is free! all we ask is that you support our designated charity Computer and Server Hospice with a £10,000 donation, cheques should be made out to CASH - we also accept Western Union.</p>
-                </div>
-                <!--leftcolumn-->
-                <div class="rightcolumn"><!--rightcolumn-->
-                    <h1>Come to our Party</h1>
-                    <div class="formContainer">
 
-                        <div>This is stage 2 you wanted {{ HowMany }} people to attend our Meet and greet at {{ whereByTo }}</div>
-                        <div class="clearme"></div>
-                    </div>
 
-                </div><!--rightcolumn-->
-            </div><!--textcontainer-->
-        </div><!--noDataForm-->
-        <div id="footer">
+    <div class="gridContainer clearfix">
+        {% include 'AJMCMCBundle:Default:Blocks/Header.html.twig' %}
+        <div id="column1">
             <div class="textcontainer">
-                <p class="footertext">Event preregister by <a href="http://www.alistairmorgan.co.uk">Alistair Morgan</a></p>
+                <h1>Pre-registration Complete!</h1>
+                <p>  Thank you for pre-registering with CMC2. You have registered {{ HowMany }} people for the Open Event at <strong>{{ whereByTo }} </strong> we look forward to meeting you.</p>
+                <p>Your unique registration number is <strong>OE0CMC2</strong> - you might want to write that down or print this page to keep for your records.</p>
+                <p>Please take a while to study the location map and maybe visit the our website.</p>
+            </div>
+            <div class="textcontainer">
+
+                <h1>Socialise!</h1>
+                <p>Let your family, friends and followers know about this great event!          </p>
+                <div class="smedia">
+                    <img  width="80" height="80"  src="{{ asset('/bundles/ajmcmc/images/facebook.png') }}" alt="Facebook" />
+
+                    <img width="80" height="80" src="{{ asset('/bundles/ajmcmc/images/twitter.png') }}" alt="Twitter" />
+
+                </div>
+
             </div>
         </div>
+        <div id="column2">
+            {% include 'AJMCMCBundle:Default:Blocks/maps.html.twig' %}
+        </div>
+        {% include 'AJMCMCBundle:Default:Blocks/Footer.html.twig' %}
     </div>
-
-
 
 {% endblock %}
 
